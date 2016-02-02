@@ -1,0 +1,22 @@
+*~
+# Eclipse
+.classpath
+.project
+.settings/
+/bin
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/target
+/work
+run.sh
+jenkins-cli.jar
