@@ -116,6 +116,6 @@ public class AptlyConnector {
     }
 
     int addPackage(PrintStream logger, String name, String path) {
-            return runCmd(logger, "aptly repo add " + name + " " + path + "");
+            return runCmd(logger, "aptly repo add -force-replace=true " + name + " " + path + "");
     }
 }
